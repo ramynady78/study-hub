@@ -1,0 +1,67 @@
+.all-courses-container{
+    padding-top: 5rem;
+}
+.course-card{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 18rem;
+}
+@media (min-width: 430px) and (max-width: 770px){
+    .course-card{
+        width: 20rem;
+    }
+    .all-courses-container{
+        padding-top: 8rem;
+    }
+}
+.course-card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+.course-card .course-img{
+    width: 100%;
+    height: 150px;
+    cursor: pointer;
+}
+.course-card .card-body{
+    border-bottom: 1px solid #ddd;
+
+}
+.course-card .card-body .card-title{
+    cursor: pointer;
+    transition: color 0.3s ease;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+
+}
+.course-card .card-body .card-title:hover{
+    color: #4e9ac9;
+}
+
+.course-card .category-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+}
+.course-card .category-info .category{
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+.course-card .category-info .category:hover{
+    color: #4e9ac9;
+}
+.course-card .author-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.course-card .author-info .author{
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+.course-card .author-info .author:hover{
+    color: #4e9ac9;
+}

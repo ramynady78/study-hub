@@ -1,0 +1,71 @@
+.welcome-contuiner{
+    width: 100%;
+    background-color: #8babae;
+    /* background-color: #93b5b7; */
+    height: 400px;
+    margin-top: 80px;
+    padding-top: 20px;
+}
+.courses-headr{
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    padding: 0 20px ;
+    align-items: center;
+    max-width: 760px; 
+}
+
+.courses-headr .welcom-massage{
+    width: 75%;
+}
+.courses-headr .welcom-massage .card-title{
+    margin-left: -26px !important;
+}
+.courses-headr .welcom-massage .card-text{
+    margin: 0;
+}
+.courses-headr .stundents-count{
+    width: 25%;
+    border-left: 2px solid #ddd;
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.courses-headr .stundents-count .count{
+    color: #0d6efd;
+    font-size: 35px;
+}
+
+.courses-headr .start-learing-btn{
+    position: relative;
+    right: -30%;
+}
+@media (min-width: 430px) and (max-width: 770px){
+    .welcome-contuiner{
+        height: 500px;
+    }
+    .courses-headr{
+        width: 95%;
+        flex-direction: column;
+    }
+    .courses-headr .welcom-massage {
+        width: 100%;
+    }
+    .courses-headr .stundents-count{
+        order: -1;
+        width: 100%;
+        border: 0px;
+        border-bottom: 2px solid #ddd;
+        flex-direction: row;
+        height: 95px;
+        justify-content: space-evenly;
+
+    }
+    .courses-headr .start-learing-btn{
+        right: 0;
+    }
+}

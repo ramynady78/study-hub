@@ -1,0 +1,239 @@
+.course-info-page{
+    position: relative;
+}
+.course-info-header{
+    width: 100%;
+    background-color: #8babae;
+    margin-top: 80px;
+    padding-top: 20px;
+
+}
+.course-info-header .course-info-header-container{
+    display: flex;
+    flex-direction: row;
+}
+.course-info-header .course-info-left-section{
+    width: 50%;
+    margin: 0;
+    position: relative;
+    
+}
+.course-info-header .course-info-left-section .course-name{
+
+
+}
+.course-info-header .course-info-left-section .course-description{
+    font-size: 20px;  
+}
+.course-info-header .course-info-left-section .data-registered{
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+    padding-right:30px ;
+}
+.course-info-header .course-info-left-section .more-info{
+    width: 60%;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    padding-bottom:10px ;
+ }
+ .course-info-header .course-info-left-section .more-info span{
+    font-weight: bold;
+    margin-left: 5px;
+}
+ .course-info-header .course-info-left-section .more-info .lessons-count,
+ .course-info-header .course-info-left-section .more-info .author{
+    display: flex;
+    align-items: center;
+    margin: 0;
+ }
+.course-info-header .course-info-left-section .register-btn{
+    position: absolute;
+    bottom: 10px;
+    right: 5px;
+}
+.course-info-header .course-info-right-section{
+    width: 30%;
+    margin: 0;
+}
+.course-info-header .course-info-right-section .course-image{
+    border-radius: 6px;
+    width: fit-content;
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+
+
+}
+
+.course-info-container{
+    display: flex;
+    flex-direction: row;
+    margin: 10px auto;
+    height: 500px;
+    position: relative;
+}
+@media (min-width: 430px) and (max-width: 770px){
+    .course-info-header{
+        padding-top: 10px;
+    }
+    .course-info-header .course-info-header-container{
+        flex-direction: column;
+    }
+    .course-info-header .course-info-left-section{
+        width: 100%;
+        padding: 5px 15px;
+        margin: 10px;
+    }
+    .course-info-header .course-info-left-section .course-description{
+        margin-left: 4px;
+    }
+        
+    .course-info-header .course-info-left-section .more-info{
+        width: 90%;
+        margin-top: 15px;
+    }
+    .course-info-header .course-info-left-section .register-btn{
+        position: relative;
+        bottom: 0;
+        width: 100%;
+        margin: 10px auto 0;
+    }
+    .course-info-header .course-info-right-section{
+        order: -1;
+        width: 100%;
+    }
+    .course-info-header .course-info-right-section .course-image{
+        width: 90%;
+
+    }
+
+} 
+
+
+
+
+.course-info-container .lessons-list {
+    width: 70%;
+    padding: 20px;
+}
+.course-info-container .lessons-list ul{
+    font-size: 25px;
+    font-weight: 400;
+    margin-left: 20px;
+}
+.course-info-container .lessons-list ul li{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.course-info-container .students-number {
+    width: 30%;
+    /* border: 2px solid red; */
+}
+
+.course-info-container .students-number .subscriber-number{
+    width: 200px;
+    height: 200px;
+    background-color: #ddd;
+    border-radius: 50%;
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.course-info-container .students-number .subscriber-number .number{
+    font-size: 26px;
+    font-weight: bold;
+}
+
+/*  after */
+
+.course-info-container .check-list{
+    width: 70%;
+    padding: 20px;
+}
+.course-info-container .check-list .check-list-items{
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.course-info-container .check-list .check-list-items .list-group-item{
+    margin: 12px 0;
+    font-size: 15px;
+    font-weight: 500;
+}
+.course-info-container .completion-rate{
+    /* border: 2px solid green; */
+    width: 30%;
+    display: flex;
+    padding-top: 20px;
+    
+}
+.course-info-container .completion-rate .rate-div{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; 
+    background: conic-gradient(
+        #8babae calc(var(--percentage, 0) * 1%),
+        #ececec calc(var(--percentage, 0) * 1%)
+    ); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+    transition: background 1s linear;
+   
+}
+
+.course-info-container .completion-rate .rate-div .rate-persent{
+    position: absolute;
+    text-align: center;
+    color: #000; 
+}
+@media (min-width: 430px) and (max-width: 770px){
+    .course-info-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .course-info-container .lessons-list{
+        
+    }
+    .course-info-container .students-number .subscriber-number{
+       
+    }
+    .course-info-container .students-number{
+        width: 100%;
+    }
+    /* after in media */
+    .course-info-container .check-list{
+        width: 100%;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .course-info-container .check-list .check-list-title{
+        margin-left: -70%;
+    }
+    .course-info-container .check-list .check-list-items .list-group-item {
+        font-size: 20px;
+    }
+    .course-info-container .completion-rate{
+        width: 100%;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+}

@@ -1,0 +1,223 @@
+export const coursesDate = [
+    {
+        "id": 1,
+        "name": "Python for Beginners",
+        "image": "https://storage.yandexcloud.net/plp-media-97af8aaaa1/CACHE/images/cover/9e22bf392eeac56663d3ee6f21ffc34c91b60a0e/d92fd59907b7c6d75476dec795aab8b8.jpg",
+        "studentsNumber": 1200,
+        "rate": 4.5,
+        "author": "John Doe",
+        "info": "Learn Python programming from scratch in this comprehensive beginner's course.",
+        "lessons": ["Introduction", "Data Types", "Loops", "Functions", "Projects"],
+        "category": "Programming"
+    },
+    {
+        "id": 2,
+        "name": "Introduction to Data Science",
+        "image": "https://storage.yandexcloud.net/plp-media-97af8aaaa1/CACHE/images/cover/e32dc603419850d9a3e60b100f948baf9e7d4c52/071bbd59882a89dd1d304f3c3afcb73b.jpg",
+        "studentsNumber": 850,
+        "rate": 4.7,
+        "author": "Jane Smith",
+        "info": "A complete guide to data science concepts and practical skills.",
+        "lessons": ["Data Analysis", "Visualization", "Machine Learning Basics", "Case Studies"],
+        "category": "Data Science"
+    },
+    {
+        "id": 3,
+        "name": "Graphic Design Basics",
+        "image": "https://storage.yandexcloud.net/plp-media-97af8aaaa1/CACHE/images/cover/a6de53093a60f25b61db2fa8662b5e3d109649eb/dd298384f17342feebacaf63025e3278.jpg",
+        "studentsNumber": 600,
+        "rate": 4.3,
+        "author": "Alex Brown",
+        "info": "Master the fundamentals of graphic design with practical projects.",
+        "lessons": ["Typography", "Color Theory", "Layouts", "Adobe Tools"],
+        "category": "Design"
+    },
+    {
+        "id": 4,
+        "name": "Web Development Essentials",
+        "image": "https://storage.yandexcloud.net/plp-media-97af8aaaa1/CACHE/images/cover/7ed1b5afc421f3d87b580d0252f2f3b5a5eae977/ff023895030129f0e47f67b23e220f2c.jpg",
+        "studentsNumber": 900,
+        "rate": 4.6,
+        "author": "Emily Davis",
+        "info": "Learn the core concepts of web development including HTML, CSS, and JavaScript.",
+        "lessons": ["HTML Basics", "CSS Styling", "JavaScript Functions", "Responsive Design"],
+        "category": "Web Development"
+    },
+    {
+        "id": 5,
+        "name": "Machine Learning Concepts",
+        "image": "https://storage.yandexcloud.net/plp-media-97af8aaaa1/CACHE/images/cover/58a31677fbd3cd31f8494f8c01532feabb1abce7/686d56765640f3956f9d3eb271a29f8e.jpg",
+        "studentsNumber": 750,
+        "rate": 4.8,
+        "author": "Michael Lee",
+        "info": "Discover the basics of machine learning and build your first model.",
+        "lessons": ["Introduction", "Supervised Learning", "Unsupervised Learning", "Model Evaluation"],
+        "category": "Artificial Intelligence"
+    },
+    {
+        "id": 6,
+        "name": "Cybersecurity Foundations",
+        "image": "https://storage.yandexcloud.net/plp-media-97af8aaaa1/CACHE/images/cover/9c39e4c056112b5c62e2577028feb17c102adede/48f9c1c1ddd7c1f7ac8162c4cbdce454.jpg",
+        "studentsNumber": 640,
+        "rate": 4.4,
+        "author": "Sophia Martinez",
+        "info": "Learn how to protect digital assets and secure information systems.",
+        "lessons": ["Introduction to Cybersecurity", "Encryption Basics", "Network Security", "Case Studies"],
+        "category": "Security"
+    },
+    {
+        "id": 7,
+        "name": "Marketing Strategies",
+        "image": "https://storage.yandexcloud.net/plp-media-97af8aaaa1/CACHE/images/cover/619dc22b03d6a655f35e9a33f3cfd7fe3857a588/361c0d9fd598e6edf67b51357bf9ca3f.jpg",
+        "studentsNumber": 520,
+        "rate": 4.5,
+        "author": "Oliver Johnson",
+        "info": "Master marketing techniques and grow your business.",
+        "lessons": ["Market Research", "Social Media Marketing", "Advertising Basics", "Analytics"],
+        "category": "Business"
+    },
+    {
+        "id": 8,
+        "name": "Project Management Skills",
+        "image": "https://storage.yandexcloud.net/plp-media-97af8aaaa1/CACHE/images/cover/c9929015d6dc9688bad0e52cd1365859af307995/c8ca259fd14eaef2dcf702fd918ddc98.jpg",
+        "studentsNumber": 860,
+        "rate": 4.7,
+        "author": "Liam Brown",
+        "info": "Learn to manage projects effectively and lead successful teams.",
+        "lessons": ["Team Building", "Project Planning", "Risk Management", "Agile Methodologies"],
+        "category": "Management"
+    },
+    {
+        "id": 9,
+        "name": "Photography 101",
+        "image": "https://storage.yandexcloud.net/plp-media-97af8aaaa1/CACHE/images/cover/b7e892ac82a17f7b16ede19ee995baa1244895ca/9a4511fa71e5545a488533fd716c375b.jpg",
+        "studentsNumber": 400,
+        "rate": 4.3,
+        "author": "Isabella Wilson",
+        "info": "Discover the basics of photography and take stunning shots.",
+        "lessons": ["Camera Basics", "Lighting", "Composition", "Editing Techniques"],
+        "category": "Photography"
+    },
+    {
+        "id": 10,
+        "name": "Public Speaking Mastery",
+        "image": "https://storage.yandexcloud.net/plp-media-97af8aaaa1/CACHE/images/cover/05e3976228f9ee4f01ba8813a16990f6b7f6905d/91589b94e5d50e21964fe0f052f97ba0.jpg",
+        "studentsNumber": 720,
+        "rate": 4.5,
+        "author": "Noah Garcia",
+        "info": "Become a confident and effective public speaker.",
+        "lessons": ["Overcoming Fear", "Structuring Your Speech", "Engaging the Audience", "Effective Delivery"],
+        "category": "Personal Development"
+    },
+    {
+        "id": 11,
+        "name": "Advanced Excel Techniques",
+        "image": "https://storage.yandexcloud.net/plp-media-97af8aaaa1/CACHE/images/cover/bef742ef4a4d0f7819c93003b5e706f9a43d71c2/a31399111783e36e0e31a1d1f7914769.jpg",
+        "studentsNumber": 1400,
+        "rate": 4.6,
+        "author": "Ella Carter",
+        "info": "Master Excel formulas, pivot tables, and macros for professional use.",
+        "lessons": ["Formulas and Functions", "Data Analysis", "Macros and Automation", "Dashboard Design"],
+        "category": "Business"
+    },
+    {
+        "id": 12,
+        "name": "Digital Marketing Fundamentals",
+        "image": "https://storage.yandexcloud.net/plp-media-97af8aaaa1/CACHE/images/cover/6ca6b1595c2bda4fa9b4b5a25ba812262c7c2768/c5b4646b6049a364b48cfaa8555db503.jpg",
+        "studentsNumber": 980,
+        "rate": 4.5,
+        "author": "Lucas Robinson",
+        "info": "Learn the essential skills for online marketing success.",
+        "lessons": ["SEO Basics", "Content Marketing", "PPC Advertising", "Email Campaigns"],
+        "category": "Marketing"
+    },
+    {
+        "id": 13,
+        "name": "Ethical Hacking Basics",
+        "image": "https://storage.yandexcloud.net/plp-media-97af8aaaa1/CACHE/images/cover/8368d11c829fc07d60d68471a7254332b20dd660/5b4303d4cb411041d7e0cdddd0233e54.jpg",
+        "studentsNumber": 760,
+        "rate": 4.7,
+        "author": "Max Turner",
+        "info": "Explore ethical hacking techniques to secure digital assets.",
+        "lessons": ["Penetration Testing", "Vulnerability Assessment", "Network Security Tools", "Case Studies"],
+        "category": "Security"
+    },
+    {
+        "id": 14,
+        "name": "Creative Writing Workshop",
+        "image": "https://storage.yandexcloud.net/plp-media-97af8aaaa1/CACHE/images/cover/393577ec6f8ff4689ce6136ac2fc1769664c5063/0d63f462148950b3aa6748b55b775ee9.jpg",
+        "studentsNumber": 670,
+        "rate": 4.6,
+        "author": "Sophia Hill",
+        "info": "Enhance your creative writing skills with interactive exercises.",
+        "lessons": ["Story Development", "Character Building", "Writing Dialogues", "Editing Tips"],
+        "category": "Writing"
+    },
+    {
+        "id": 15,
+        "name": "Blockchain and Cryptocurrency",
+        "image": "https://storage.yandexcloud.net/plp-media-97af8aaaa1/CACHE/images/cover/24b8323a02158da0d1bf09a16b5130a375744328/21fa2eedbd05d9a0c06a6b672157dc8a.jpg",
+        "studentsNumber": 830,
+        "rate": 4.5,
+        "author": "Aaron Wilson",
+        "info": "Understand blockchain technology and cryptocurrency fundamentals.",
+        "lessons": ["Blockchain Basics", "Cryptocurrency Overview", "Smart Contracts", "Use Cases"],
+        "category": "Finance"
+    },
+    {
+        "id": 16,
+        "name": "UI/UX Design Masterclass",
+        "image": "https://storage.yandexcloud.net/plp-media-97af8aaaa1/CACHE/images/cover/2d8daad2748a9758432e139f0db7629f5f83405f/8495b674bbe32ad6aead40e26ebe4573.jpg",
+        "studentsNumber": 900,
+        "rate": 4.8,
+        "author": "Isabella Martinez",
+        "info": "Learn to create user-friendly interfaces and engaging experiences.",
+        "lessons": ["Design Principles", "Wireframing", "Prototyping Tools", "User Testing"],
+        "category": "Design"
+    },
+    {
+        "id": 17,
+        "name": "Fitness Training Basics",
+        "image": "https://storage.yandexcloud.net/plp-media-97af8aaaa1/CACHE/images/cover/47ef8ada1355acbc100ad3341c36528c6c225ba5/fa65419bbc947fae8608ec36454480e8.jpg",
+        "studentsNumber": 1150,
+        "rate": 4.4,
+        "author": "Ethan Carter",
+        "info": "Build your fitness knowledge and achieve your goals.",
+        "lessons": ["Workout Routines", "Nutrition Basics", "Strength Training", "Stretching Techniques"],
+        "category": "Health"
+    },
+    {
+        "id": 18,
+        "name": "Data Science Essentials",
+        "image": "https://storage.yandexcloud.net/plp-media-97af8aaaa1/CACHE/images/cover/d4028bd2ec35f8d311efa743a0f0710bd10698ed/465410a9126ff47791a7a30da479a330.jpg",
+        "studentsNumber": 950,
+        "rate": 4.7,
+        "author": "Michael Johnson",
+        "info": "Understand data science concepts and gain practical skills in data analysis.",
+        "lessons": ["Data Collection", "Data Cleaning", "Visualization Techniques", "Introduction to Machine Learning"],
+        "category": "Data Science"
+    },
+    {
+        "id": 19,
+        "name": "Mobile App Development",
+        "image": "https://storage.yandexcloud.net/plp-media-97af8aaaa1/CACHE/images/cover/f8411f8dd6c2b14171a3655ff50adfef07023197/72a3cc4b3225e6d4dbe61ae2470dc82b.jpg",
+        "studentsNumber": 820,
+        "rate": 4.7,
+        "author": "Olivia Johnson",
+        "info": "Create mobile applications using modern frameworks.",
+        "lessons": ["Intro to Mobile Apps", "React Native Basics", "Testing and Debugging", "Deployment"],
+        "category": "Programming"
+    },
+    {
+        "id": 20,
+        "name": "Big Data Fundamentals",
+        "image": "https://storage.yandexcloud.net/plp-media-97af8aaaa1/CACHE/images/cover/c85321cab10ad849df82eafba9f940c8aab1904b/371722f4d8b74ffb190c06cf3f613567.jpg",
+        "studentsNumber": 780,
+        "rate": 4.6,
+        "author": "Emily Brown",
+        "info": "Learn the basics of big data technologies and how they transform industries.",
+        "lessons": ["Big Data Overview", "Data Storage", "Hadoop Basics", "Real-World Applications"],
+        "category": "Data Science"
+    },    
+]
+
