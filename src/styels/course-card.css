@@ -6,7 +6,7 @@
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     width: 18rem;
 }
-@media (min-width: 430px) and (max-width: 770px){
+@media (min-width: 300px) and (max-width: 770px){
     .course-card{
         width: 20rem;
     }
@@ -45,23 +45,10 @@
     justify-content: space-between;
     border-bottom: 1px solid #ddd;
 }
-.course-card .category-info .category{
-    cursor: pointer;
-    transition: color 0.3s ease;
-}
-.course-card .category-info .category:hover{
-    color: #4e9ac9;
-}
+
 .course-card .author-info{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     
-}
-.course-card .author-info .author{
-    cursor: pointer;
-    transition: color 0.3s ease;
-}
-.course-card .author-info .author:hover{
-    color: #4e9ac9;
 }

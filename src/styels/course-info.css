@@ -80,7 +80,7 @@
     height: 500px;
     position: relative;
 }
-@media (min-width: 430px) and (max-width: 770px){
+@media (min-width: 300px) and (max-width: 770px){
     .course-info-header{
         padding-top: 10px;
     }
@@ -201,7 +201,7 @@
     text-align: center;
     color: #000; 
 }
-@media (min-width: 430px) and (max-width: 770px){
+@media (min-width: 300px) and (max-width: 770px){
     .course-info-container{
         flex-direction: column;
         justify-content: center;
