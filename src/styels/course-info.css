@@ -206,9 +206,10 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        height: inherit;
     }
     .course-info-container .lessons-list{
-        
+        width: 100%;
     }
     .course-info-container .students-number .subscriber-number{
        
