@@ -1,4 +1,4 @@
-import {useEffect, useState } from "react";
+import { useState } from "react";
 import { Form, ListGroup } from "react-bootstrap";
 import { FaBook } from "react-icons/fa";
 import { useDispatch } from "react-redux";
@@ -7,6 +7,7 @@ import { updateFinishedLessons } from "../redux TK/slices/register-course";
 function AfterRegister(props) {
     const course =props.course;
     const [finshedLessons , setFinshedLessons]  = useState(course.finishedLessons);
+
     const dispatch = useDispatch()
     const courseId = course.id;
     const handleCheck = (event) => {

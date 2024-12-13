@@ -5,11 +5,7 @@ import { coursesDate } from "../../courses-data";
 const coursesSlice = createSlice({
     name:"coursesSlice",
     initialState:coursesDate,
-    reducers:{
-
-    },
-
-
+    reducers:{},
 });
 
 export  const {} = coursesSlice.actions;

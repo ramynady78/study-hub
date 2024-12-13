@@ -1,4 +1,4 @@
-import { Button, Card, Col, Container, Row } from "react-bootstrap";
+import {  Card, Col, Container, Row } from "react-bootstrap";
 import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import Swal from "sweetalert2";
@@ -24,7 +24,7 @@ function MyCourses(){
         <>
         
         {
-            mycourses.length == 0 
+            mycourses.length === 0 
             ? <div className="not-courses">
                 <Card.Title className="message">Not courses added yet</Card.Title>
                 <Link className="btn btn-primary not-message-btn" to={"/courses"}>Add New Courses</Link>

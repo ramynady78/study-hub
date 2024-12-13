@@ -19,7 +19,7 @@ const registerCourse = createSlice({
             return state;
         },
         leavingCoure:(state , action) => {
-            const mycourses = state.filter((course) => course.id != action.payload.id);
+            const mycourses = state.filter((course) => course.id !== action.payload.id);
             localStorage.setItem("registeredCourse", JSON.stringify(mycourses));
             return mycourses;
 

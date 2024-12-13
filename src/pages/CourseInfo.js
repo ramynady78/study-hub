@@ -12,10 +12,8 @@ function CourseInfo(){
 
     const courses = useSelector(state => state.courses);
     const registeredCourses = useSelector(state => state.register)
-    const course = courses.find((course) => course.id == courseId.id);
-    const isRegistered  = registeredCourses.find((checkCourse) => checkCourse.id === course.id)
-    
-
+    const course = courses.find((course) => course.id === +courseId.id);
+    const isRegistered  = registeredCourses.find((checkCourse) => checkCourse.id === course.id);
 
     const selectedCourse = isRegistered
     ? registeredCourses.find((checkCourse) => checkCourse.id === course.id)
@@ -63,7 +61,7 @@ function CourseInfo(){
                                
                     </div>
                     <div className="course-info-right-section">
-                        <img className="course-image" src={selectedCourse.image} />
+                        <img className="course-image" src={selectedCourse.image}  alt={selectedCourse.title}/>
                     </div>
             </div>
             </div>
