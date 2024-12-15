@@ -1,9 +1,10 @@
-# Learning Platform - Bi-Courses
+# Learning Platform - Study-Hub
 
 Welcome to the Study Hub Learning Platform! This project is a web-based application designed to facilitate online learning by providing a structured and user-friendly platform for course management and student engagement.
 
 ## Features
-- **All Products Page**: Browse and explore available courses with detailed descriptions.
+- **Home Page**.
+- **All courses Page**: Browse and explore available courses with detailed descriptions.
 - **User-Friendly Interface**: A clean and responsive design to ensure a smooth user experience.
 - **Scalable Architecture**: Built to accommodate future enhancements and a growing user base.
 
